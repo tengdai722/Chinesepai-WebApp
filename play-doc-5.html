@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>课件</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="video-js.css">
+
+    <script src="assets/js/echarts.min.js"></script>
+
+</head>
+
+<body data-type="index">
+
+
+<header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-topbar-brand">
+        <a href="index.html" class="tpl-logo">
+            <img src="assets/img/logo.png" alt="">
+        </a>
+    </div>
+    <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
+
+    </div>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+        <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list tpl-header-list">
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-doc-1.html">
+                    <span class="am-icon-file-text"></span> 课件
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-index.html">
+                    <span class="am-icon-paint-brush"></span> 首页
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-talk-1.html">
+                    <span class="am-icon-user"></span> 讨论区
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-document.html">
+                    <span class="am-icon-file-text-o"></span> 学生材料
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-italki.html">
+                    <span class="am-icon-magic"></span> italki
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-friends.html">
+                    <span class="am-icon-tasks"></span> 我的
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                    <span class="tpl-header-list-user-nick">李白</span><span class="tpl-header-list-user-ico"> <img src="assets/img/user01.png"></span>
+                </a>
+                <ul class="am-dropdown-content">
+                    <li><a href="aft-document.html"><span class="am-icon-bell-o"></span> 资料</a></li>
+                    <li><a href="aft-setting.html"><span class="am-icon-cog"></span> 设置</a></li>
+                    <li><a href="index.html"><span class="am-icon-sun-o"></span> 积分<span id="grades">5</span></a></li>
+                    <li><a href="index.html"><span class="am-icon-power-off"></span> 退出</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html" class="tpl-header-list-link"><span class="am-icon-sign-out tpl-header-list-ico-out-size"></span></a></li>
+        </ul>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+        <div class="tpl-left-nav tpl-left-nav-hover">
+            <div class="tpl-left-nav-list">
+                <ul class="tpl-left-nav-menu">
+                    <li class="tpl-left-nav-item active">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-table"></i>
+                            <span>修课须知</span>
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display:block">
+                            <li>
+                                <a href="play-doc-1.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>上课前必须知道的4件事</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="tpl-left-nav-item">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-table"></i>
+                            <span>楔子</span>
+                            <!-- 列表打开状态的i标签添加 tpl-left-nav-more-ico-rotate 图表即90°旋转  -->
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display:block">
+                            <li>
+                                <a href="play-doc-2.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>汉字</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="tpl-left-nav-item active">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-table"></i>
+                            <span>第一课 问候</span>
+                            <!-- 列表打开状态的i标签添加 tpl-left-nav-more-ico-rotate 图表即90°旋转  -->
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display:block">
+                            <li>
+                                <a href="play-doc-3.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>会话</span>
+                                </a>
+                                <a href="play-doc-4.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>汉字</span>
+                                </a>
+                                <a href="play-doc-5.html" class="active">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>听力练习</span>
+                                </a>
+                                <a href="play-doc-6.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>学习小贴士</span>
+                                </a>
+                                <a href="play-doc-7.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>课程设计</span>
+                                </a>
+                                <a href="play-doc-8.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>本周考察题<i class="am-icon-clock-o"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tpl-content-wrapper">
+            <div class="row">
+                <div class="am-u-md-12 am-u-sm-12 row-mb">
+                    <div class="tpl-portlet">
+                        <div class="tpl-portlet-title">
+                            <div class="tpl-caption font-green">
+                                <span>听力训练</span>
+                            </div>
+                        </div>
+
+                        <div class="am-tabs tpl-index-tabs" data-am-tabs>
+                            <ul class="nav nav-pills" role="tablist" style="border:1px solid #ccc;border-radius: 10px;">
+                                <li class="am-active" style="width:100%;"><a href="#tab1" role="tab" data-toggle="pill"> <i class="am-icon-file-text-o"></i></a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="tab6">
+                                    <div id="wrapper2-6" class="wrapper" style="height:1770px;">
+                                        <div id="scroller2-6" class="scroller">
+                                            <div class="tpl-block ">
+                                                <div class="am-g tpl-amazeui-form">
+                                                    <div class="play-text ">
+                                                        <div class="play-question am-u-sm-12 am-u-md-12">
+                                                            <span>MULTIPLE CHOICE<small>(5 满分)</small></span>
+                                                            <h5>Peter sees a girl in his class who seems nice and wants to ask her out for some tea.
+                                                                But he has to finish the following exercises to get her name. Can you help him? Each
+                                                                option has a corresponding letter. If you combine all the correct letters it will
+                                                                reveal her name!
+                                                                A→I
+
+                                                                B→M
+
+                                                                C→R
+
+                                                                D→S
+
+                                                                E→A
+
+                                                                Listen to audios, and choose what is mentioned in the audio.<br>
+                                                                question26
+                                                            </h5>
+                                                            <img src="assets/img/play-question26.jpg" style="width:50%;" />
+                                                            <p>
+                                                                <audio controls="controls" style="width:200px; height:70px;">
+                                                                <source src="assets/song.ogg" type="audio/ogg">
+                                                                <source src="assets/song.mp3" type="audio/mpeg">
+                                                                <embed height="100" width="100" src="assets/song.mp3" />
+                                                            </audio>
+                                                            </p>
+                                                            <p><input type="radio" value="option1" name="play-question1">Hello!</p>
+                                                            <p><input type="radio" value="option2" name="play-question1">Good morning！</p>
+                                                            <p><input type="radio" value="option3" name="play-question1">Thank you!</p>
+                                                            <p><input type="radio" value="option4" name="play-question1">Good bye!</p>
+                                                            <p><input type="radio" value="option4" name="play-question1">Sorry!</p>
+                                                            <p><button type="button" class="am-btn am-btn-primary">提交</button>
+                                                                <button type="button" class="am-btn am-btn-primary">保存</button>
+                                                            </p>
+                                                        </div>
+                                                        <div class="play-question am-u-sm-12 am-u-md-12">
+                                                            <span>MULTIPLE CHOICE<small>(5 满分)</small></span>
+                                                            <h5>
+                                                                question27
+                                                            </h5>
+                                                            <p>
+                                                                <audio controls="controls" style="width:200px; height:70px;">
+                                                                    <source src="assets/song.ogg" type="audio/ogg">
+                                                                    <source src="assets/song.mp3" type="audio/mpeg">
+                                                                    <embed height="100" width="100" src="assets/song.mp3" />
+                                                                </audio>
+                                                            </p>
+                                                            <p><input type="radio" value="option1" name="play-question1">Hello!</p>
+                                                            <p><input type="radio" value="option2" name="play-question1">Good morning！</p>
+                                                            <p><input type="radio" value="option3" name="play-question1">Thank you!</p>
+                                                            <p><input type="radio" value="option4" name="play-question1">Good bye!</p>
+                                                            <p><input type="radio" value="option4" name="play-question1">Sorry!</p>
+                                                            <p><button type="button" class="am-btn am-btn-primary">提交</button>
+                                                                <button type="button" class="am-btn am-btn-primary">保存</button>
+                                                            </p>
+                                                        </div>
+                                                        <div class="play-question am-u-sm-12 am-u-md-12">
+                                                            <span>MULTIPLE CHOICE<small>(5 满分)</small></span>
+                                                            <h5>
+                                                                question28
+                                                            </h5>
+                                                            <p>
+                                                                <audio controls="controls" style="width:200px; height:70px;">
+                                                                    <source src="assets/song.ogg" type="audio/ogg">
+                                                                    <source src="assets/song.mp3" type="audio/mpeg">
+                                                                    <embed height="100" width="100" src="assets/song.mp3" />
+                                                                </audio>
+                                                            </p>
+                                                            <p><input type="radio" value="option1" name="play-question1">Hello!</p>
+                                                            <p><input type="radio" value="option2" name="play-question1">Good morning！</p>
+                                                            <p><input type="radio" value="option3" name="play-question1">Thank you!</p>
+                                                            <p><input type="radio" value="option4" name="play-question1">Good bye!</p>
+                                                            <p><input type="radio" value="option4" name="play-question1">Sorry!</p>
+                                                            <p><button type="button" class="am-btn am-btn-primary">提交</button>
+                                                                <button type="button" class="am-btn am-btn-primary">保存</button>
+                                                            </p>
+                                                        </div>
+                                                        <div class="play-doc-bot am-cf am-u-sm-12 am-u-md-12">
+                                                            <div class="am-fr">
+                                                                <ul class="am-pagination tpl-pagination">
+                                                                    <li><a href="#">«</a></li>
+                                                                    <li><a href="#">»</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="am-footer am-u-md-12 am-u-sm-12">@2018 All Rights Reserved. Designed with by B1lehu</div>
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="assets/js/iscroll.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

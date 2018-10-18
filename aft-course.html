@@ -1,0 +1,437 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的课程</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body data-type="generalComponents">
+
+
+    <header class="am-topbar am-topbar-inverse admin-header">
+        <div class="am-topbar-brand">
+            <a href="index.html" class="tpl-logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
+
+        </div>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+        <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+            <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list tpl-header-list">
+                <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                    <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                        <span class="am-icon-bell-o"></span> 提醒 <span class="am-badge tpl-badge-success am-round">5</span></span>
+                    </a>
+                    <ul class="am-dropdown-content tpl-dropdown-content">
+                        <li class="tpl-dropdown-content-external">
+                            <h3>你有 <span class="tpl-color-success">5</span> 条提醒</h3><a href="aft-messages.html">全部</a></li>
+                        <li class="tpl-dropdown-list-bdbc"><a href="#" class="tpl-dropdown-list-fl"><span class="am-icon-btn am-icon-plus tpl-dropdown-ico-btn-size tpl-badge-success"></span> 中文派和你学习一“夏”</a>
+                            <span class="tpl-dropdown-list-fr">3小时前</span>
+                        </li>
+                        <li class="tpl-dropdown-list-bdbc"><a href="#" class="tpl-dropdown-list-fl"><span class="am-icon-btn am-icon-check tpl-dropdown-ico-btn-size tpl-badge-danger"></span> 公开课提醒：《中文电影里的中国文化》，晚8:00，不容错过！</a>
+                            <span class="tpl-dropdown-list-fr">15分钟前</span>
+                        </li>
+                        <li class="tpl-dropdown-list-bdbc"><a href="#" class="tpl-dropdown-list-fl"><span class="am-icon-btn am-icon-bell-o tpl-dropdown-ico-btn-size tpl-badge-warning"></span> 公开课提醒：《舌尖上的中国字幕解读》，晚8:00，不容错过！</a>
+                            <span class="tpl-dropdown-list-fr">2天前</span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                    <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                        <span class="am-icon-comment-o"></span> 消息 <span class="am-badge tpl-badge-danger am-round">9</span></span>
+                    </a>
+                    <ul class="am-dropdown-content tpl-dropdown-content">
+                        <li class="tpl-dropdown-content-external">
+                            <h3>你有 <span class="tpl-color-danger">9</span> 条新消息</h3><a href="aft-messages.html">全部</a></li>
+                        <li>
+                            <a href="#" class="tpl-dropdown-content-message">
+                                <span class="tpl-dropdown-content-photo">
+                      <img src="assets/img/user02.png" alt=""> </span>
+                                <span class="tpl-dropdown-content-subject">
+                      <span class="tpl-dropdown-content-from"> 禁言小张 </span>
+                                <span class="tpl-dropdown-content-time">36分钟前 </span>
+                                </span>
+                                <span class="tpl-dropdown-content-font"> 怎么用地道的中文来砍价 </span>
+                            </a>
+                            <a href="#" class="tpl-dropdown-content-message">
+                                <span class="tpl-dropdown-content-photo">
+                      <img src="assets/img/user03.png" alt=""> </span>
+                                <span class="tpl-dropdown-content-subject">
+                      <span class="tpl-dropdown-content-from"> Steam </span>
+                                <span class="tpl-dropdown-content-time">36分钟前</span>
+                                </span>
+                                <span class="tpl-dropdown-content-font"> 哇哇哇！让我们一起去看中国的超市吧！ </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                    <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                        <span class="am-icon-calendar"></span> 进度 <span class="am-badge tpl-badge-primary am-round">4</span></span>
+                    </a>
+                    <ul class="am-dropdown-content tpl-dropdown-content">
+                        <li class="tpl-dropdown-content-external">
+                            <h3>你有 <span class="tpl-color-primary">45</span> 个任务进度</h3><a href="aft-index.html">全部</a></li>
+                        <li>
+                            <a href="javascript:;" class="tpl-dropdown-content-progress">
+                                <span class="task">
+                        <span class="desc">HSK4级</span>
+                                <span class="percent">45%</span>
+                                </span>
+                                <span class="progress">
+                        <div class="am-progress tpl-progress am-progress-striped"><div class="am-progress-bar am-progress-bar-success" style="width:45%"></div></div>
+                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="tpl-dropdown-content-progress">
+                                <span class="task">
+                        <span class="desc">神话传说 </span>
+                                <span class="percent">30%</span>
+                                </span>
+                                <span class="progress">
+                       <div class="am-progress tpl-progress am-progress-striped"><div class="am-progress-bar am-progress-bar-secondary" style="width:30%"></div></div>
+                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="tpl-dropdown-content-progress">
+                                <span class="task">
+                        <span class="desc">常用100句 </span>
+                                <span class="percent">60%</span>
+                                </span>
+                                <span class="progress">
+                        <div class="am-progress tpl-progress am-progress-striped"><div class="am-progress-bar am-progress-bar-warning" style="width:60%"></div></div>
+                    </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                    <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                        <span class="tpl-header-list-user-nick">李白</span><span class="tpl-header-list-user-ico"> <img src="assets/img/user01.png"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li><a href="aft-document.html"><span class="am-icon-bell-o"></span> 资料</a></li>
+                        <li><a href="aft-setting.html"><span class="am-icon-cog"></span> 设置</a></li>
+                        <li><a href="index.html"><span class="am-icon-sun-o"></span> 积分<span id="grades">5</span></a></li>
+                        <li><a href="index.html"><span class="am-icon-power-off"></span> 退出</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html" class="tpl-header-list-link"><span class="am-icon-sign-out tpl-header-list-ico-out-size"></span></a></li>
+            </ul>
+
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <div class="tpl-page-container tpl-page-header-fixed">
+
+        <div class="tpl-left-nav tpl-left-nav-hover">
+            <div class="tpl-left-nav-list">
+                <ul class="tpl-left-nav-menu">
+                    <li class="tpl-left-nav-item active">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list active">
+                            <i class="am-icon-table"></i>
+                            <span>我的课程</span>
+                            <!-- 列表打开状态的i标签添加 tpl-left-nav-more-ico-rotate 图表即90°旋转  -->
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display:block">
+                            <li>
+                                <a href="aft-course.html" class="active">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>未完成</span>
+                                </a>
+                                <a href="aft-course2.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>已完成</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="tpl-left-nav-item">
+                        <a href="calender/chart.html" class="nav-link">
+                            <i class="am-icon-home"></i>
+                            <span>个人档案</span>
+                        </a>
+                    </li>
+                    <li class="tpl-left-nav-item">
+                        <a href="aft-upload.html" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-bar-chart"></i>
+                            <span>上传记录</span>
+                        </a>
+                    </li>
+                    <li class="tpl-left-nav-item">
+                        <a href="aft-messages.html" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-comments-o"></i>
+                            <span>消息&提醒</span>
+                            <i class="tpl-left-nav-content tpl-badge-primary">5</i>
+                        </a>
+                    </li>
+                    <li class="tpl-left-nav-item">
+                        <a href="aft-collectors.html" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-tags"></i>
+                            <span>收藏的话题</span>
+                            <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
+                        </a>
+                    </li>
+                    <li class="tpl-left-nav-item">
+                        <a href="log-in.html" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-key"></i>
+                            <span>登录</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="tpl-content-wrapper">
+            <div class="tpl-portlet-components">
+                <div class="portlet-title">
+                    <div class="caption font-green bold">
+                        <span class="am-icon-code"></span> 未完成
+                    </div>
+                    <div class="tpl-portlet-input tpl-fz-ml">
+                        <div class="portlet-input input-small input-inline">
+                            <div class="input-icon right">
+                                <i class="am-icon-search"></i>
+                                <input type="text" class="form-control form-control-solid" placeholder="搜索..."> </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="tpl-block">
+                    <div class="am-g">
+                        <div class="am-u-sm-12 am-u-md-9">
+                            <div class="am-btn-toolbar">
+                                <div class="am-btn-group am-btn-group-xs">
+                                    <button type="button" class="am-btn am-btn-default am-btn-success"><a href="index.html"><span class="am-icon-plus"></span> 新增</a></button>
+                                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 清空</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="am-u-sm-12 am-u-md-3">
+                            <div class="am-form-group">
+                                <select data-am-selected="{btnSize: 'sm'}">
+                                    <option value="option1">所有类别</option>
+                                    <option value="option2">考证</option>
+                                    <option value="option3">动画课程</option>
+                                    <option value="option3">商务用语</option>
+                                    <option value="option3">标准化测试</option>
+                                    <option value="option3">生活</option>
+                                    <option value="option3">历史与地理</option>
+                                    <option value="option2">影视与音乐</option>
+                                    <option value="option3">艺术与生活</option>
+                                    <option value="option3">外教一对一</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="am-g">
+                        <div class="tpl-table-images">
+                            <div class="am-u-sm-12 am-u-md-6 am-u-lg-4">
+                                <div class="tpl-table-images-content">
+                                    <div class="tpl-i-title">
+                                        快速复习HSK6!HSK考证秘籍！
+                                    </div>
+                                    <a href="pri-course1-1.html" class="tpl-table-images-content-i">
+                                        <div class="tpl-table-images-content-i-info">
+                                            <span class="ico">
+                                    <img src="assets/img/user02.png" alt="">追逐
+                                 </span>
+
+                                        </div>
+                                        <span class="tpl-table-images-content-i-shadow"></span>
+                                        <img src="assets/img/a1.png" alt="">
+                                    </a>
+                                    <div class="tpl-table-images-content-block">
+
+
+                                        <div class="am-btn-toolbar">
+                                            <div class="am-btn-group am-btn-group-xs tpl-edit-content-btn">
+                                                <span class="am-icon-star" style="float:left; color: #1abc9c;"> 100+</span>
+                                                <button type="button" class="am-btn am-btn-default am-btn-danger" style="float:right"><span class="am-icon-trash-o"></span> 删除</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am-u-sm-12 am-u-md-6 am-u-lg-4">
+                                <div class="tpl-table-images-content">
+                                    <div class="tpl-i-title">
+                                        快速复习HSK6!HSK考证秘籍！
+                                    </div>
+                                    <a href="pri-course1-1.html" class="tpl-table-images-content-i">
+                                        <div class="tpl-table-images-content-i-info">
+                                            <span class="ico">
+                                    <img src="assets/img/user02.png" alt="">追逐
+                                 </span>
+
+                                        </div>
+                                        <span class="tpl-table-images-content-i-shadow"></span>
+                                        <img src="assets/img/a1.png" alt="">
+                                    </a>
+                                    <div class="tpl-table-images-content-block">
+
+
+                                        <div class="am-btn-toolbar">
+                                            <div class="am-btn-group am-btn-group-xs tpl-edit-content-btn">
+                                                <span class="am-icon-star" style="float:left; color: #1abc9c;"> 100+</span>
+                                                <button type="button" class="am-btn am-btn-default am-btn-danger" style="float:right"><span class="am-icon-trash-o"></span> 删除</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am-u-sm-12 am-u-md-6 am-u-lg-4">
+                                <div class="tpl-table-images-content">
+                                    <div class="tpl-i-title">
+                                        快速复习HSK6!HSK考证秘籍！
+                                    </div>
+                                    <a href="pri-course1-1.html" class="tpl-table-images-content-i">
+                                        <div class="tpl-table-images-content-i-info">
+                                            <span class="ico">
+                                    <img src="assets/img/user02.png" alt="">追逐
+                                 </span>
+
+                                        </div>
+                                        <span class="tpl-table-images-content-i-shadow"></span>
+                                        <img src="assets/img/a1.png" alt="">
+                                    </a>
+                                    <div class="tpl-table-images-content-block">
+
+
+                                        <div class="am-btn-toolbar">
+                                            <div class="am-btn-group am-btn-group-xs tpl-edit-content-btn">
+                                                <span class="am-icon-star" style="float:left; color: #1abc9c;"> 100+</span>
+                                                <button type="button" class="am-btn am-btn-default am-btn-danger" style="float:right"><span class="am-icon-trash-o"></span> 删除</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am-u-sm-12 am-u-md-6 am-u-lg-4">
+                                <div class="tpl-table-images-content">
+                                    <div class="tpl-i-title">
+                                        快速复习HSK6!HSK考证秘籍！
+                                    </div>
+                                    <a href="pri-course1-1.html" class="tpl-table-images-content-i">
+                                        <div class="tpl-table-images-content-i-info">
+                                            <span class="ico">
+                                    <img src="assets/img/user02.png" alt="">追逐
+                                 </span>
+
+                                        </div>
+                                        <span class="tpl-table-images-content-i-shadow"></span>
+                                        <img src="assets/img/a1.png" alt="">
+                                    </a>
+                                    <div class="tpl-table-images-content-block">
+
+
+                                        <div class="am-btn-toolbar">
+                                            <div class="am-btn-group am-btn-group-xs tpl-edit-content-btn">
+                                                <span class="am-icon-star" style="float:left; color: #1abc9c;"> 100+</span>
+                                                <button type="button" class="am-btn am-btn-default am-btn-danger" style="float:right"><span class="am-icon-trash-o"></span> 删除</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am-u-sm-12 am-u-md-6 am-u-lg-4">
+                                <div class="tpl-table-images-content">
+                                    <div class="tpl-i-title">
+                                        快速复习HSK6!HSK考证秘籍！
+                                    </div>
+                                    <a href="pri-course1-1.html" class="tpl-table-images-content-i">
+                                        <div class="tpl-table-images-content-i-info">
+                                            <span class="ico">
+                                    <img src="assets/img/user02.png" alt="">追逐
+                                 </span>
+
+                                        </div>
+                                        <span class="tpl-table-images-content-i-shadow"></span>
+                                        <img src="assets/img/a1.png" alt="">
+                                    </a>
+                                    <div class="tpl-table-images-content-block">
+
+
+                                        <div class="am-btn-toolbar">
+                                            <div class="am-btn-group am-btn-group-xs tpl-edit-content-btn">
+                                                <span class="am-icon-star" style="float:left; color: #1abc9c;"> 100+</span>
+                                                <button type="button" class="am-btn am-btn-default am-btn-danger" style="float:right"><span class="am-icon-trash-o"></span> 删除</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am-u-lg-12">
+                                <div class="am-cf">
+
+                                    <div class="am-fr">
+                                        <ul class="am-pagination tpl-pagination">
+                                            <li class="am-disabled"><a href="#">«</a></li>
+                                            <li class="am-active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li><a href="#">»</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tpl-alert"></div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="am-footer am-u-md-12 am-u-sm-12">@2018 All Rights Reserved. Designed with by B1lehu</div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
