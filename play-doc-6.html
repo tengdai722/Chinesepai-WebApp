@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>课件</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <link rel="stylesheet" href="video-js.css">
+
+    <script src="assets/js/echarts.min.js"></script>
+
+</head>
+
+<body data-type="index">
+
+
+<header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-topbar-brand">
+        <a href="index.html" class="tpl-logo">
+            <img src="assets/img/logo.png" alt="">
+        </a>
+    </div>
+    <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
+
+    </div>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+        <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list tpl-header-list">
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-doc-1.html">
+                    <span class="am-icon-file-text"></span> 课件
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-index.html">
+                    <span class="am-icon-paint-brush"></span> 首页
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-talk-1.html">
+                    <span class="am-icon-user"></span> 讨论区
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-document.html">
+                    <span class="am-icon-file-text-o"></span> 学生材料
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-italki.html">
+                    <span class="am-icon-magic"></span> italki
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="tpl-header-list-link" href="play-friends.html">
+                    <span class="am-icon-tasks"></span> 我的
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                    <span class="tpl-header-list-user-nick">李白</span><span class="tpl-header-list-user-ico"> <img src="assets/img/user01.png"></span>
+                </a>
+                <ul class="am-dropdown-content">
+                    <li><a href="aft-document.html"><span class="am-icon-bell-o"></span> 资料</a></li>
+                    <li><a href="aft-setting.html"><span class="am-icon-cog"></span> 设置</a></li>
+                    <li><a href="index.html"><span class="am-icon-sun-o"></span> 积分<span id="grades">5</span></a></li>
+                    <li><a href="index.html"><span class="am-icon-power-off"></span> 退出</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html" class="tpl-header-list-link"><span class="am-icon-sign-out tpl-header-list-ico-out-size"></span></a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+        <div class="tpl-left-nav tpl-left-nav-hover">
+            <div class="tpl-left-nav-list">
+                <ul class="tpl-left-nav-menu">
+                    <li class="tpl-left-nav-item active">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-table"></i>
+                            <span>修课须知</span>
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display:block">
+                            <li>
+                                <a href="play-doc-1.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>上课前必须知道的4件事</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="tpl-left-nav-item">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-table"></i>
+                            <span>楔子</span>
+                            <!-- 列表打开状态的i标签添加 tpl-left-nav-more-ico-rotate 图表即90°旋转  -->
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display:block">
+                            <li>
+                                <a href="play-doc-2.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>汉字</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="tpl-left-nav-item active">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-table"></i>
+                            <span>第一课 问候</span>
+                            <!-- 列表打开状态的i标签添加 tpl-left-nav-more-ico-rotate 图表即90°旋转  -->
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display:block">
+                            <li>
+                                <a href="play-doc-3.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>会话</span>
+                                </a>
+                                <a href="play-doc-4.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>汉字</span>
+                                </a>
+                                <a href="play-doc-5.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>听力练习</span>
+                                </a>
+                                <a href="play-doc-6.html" class="active">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>学习小贴士</span>
+                                </a>
+                                <a href="play-doc-7.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>课程设计</span>
+                                </a>
+                                <a href="play-doc-8.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>本周考察题<i class="am-icon-clock-o"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tpl-content-wrapper">
+            <div class="row">
+                <div class="am-u-md-12 am-u-sm-12 row-mb">
+                    <div class="tpl-portlet">
+                        <div class="tpl-portlet-title">
+                            <div class="tpl-caption font-green">
+                                <span>学习小贴士</span>
+                            </div>
+                        </div>
+
+                        <div class="am-tabs tpl-index-tabs" data-am-tabs>
+                            <ul class="nav nav-pills" role="tablist" style="border:1px solid #ccc;border-radius: 10px;">
+                                <li class="am-active" style="width:100%;"><a href="#tab1" role="tab" data-toggle="pill">  <i class="am-icon-film"></i></a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div cclass="tab-pane fade in active" id="tab1">
+                                    <div id="wrapper2-1" class="wrapper" style="height:840px;">
+                                        <div id="scroller2-1" class="scroller">
+                                            <div class="tpl-block ">
+                                                <div class="am-g tpl-amazeui-form">
+                                                    <div class="play-text">
+                                                        <div class="play-text-top am-u-sm-12 am-u-md-12">
+                                                            <span>VIDEO</span>
+                                                        </div>
+                                                        <div class="play-text-mid am-u-sm-12 am-u-md-12">
+                                                            <video id="my_video_2-1" class="video-js vjs-sublime-skin" style="width:80%; margin-left:10%;"  poster="assets/img/course-poster.jpg" controls preload="none" poster='https://video-js.zencoder.com/oceans-clip.jpg' data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+                                                                <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+                                                                <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+                                                            </video>
+                                                        </div>
+                                                        <div class="am-form-group am-u-sm-12 am-u-sm-push-1">
+                                                                <button type="button" class="am-btn am-btn-primary"><a href="#">下载字幕</a></button>
+                                                                <button type="button" class="am-btn am-btn-primary"><a href="#">下载课件</a></button>
+                                                        </div>
+                                                        <div class="am-u-sm-12 am-u">
+                                                                <hr><p>How to say Hello in your first language? Share it below with others!</p>
+                                                        </div>
+                                                        <div class="play-doc-comment am-u-sm-12 am-u">
+                                                            <div class="play-doc-comment1 am-u-12 am-u">
+                                                                <span><i class="am-icon-commenting-o"></i> 讨论</span>
+                                                                <div class="am-fr">
+                                                                   <ul class="am-pagination tpl-pagination">
+                                                                      <li class="am-disabled"><a href="#"><i class="am-icon-edit"></i>新的帖子</a></li>
+                                                                   </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="play-doc-comment2 am-u-sm-12 am-u-md-12 am-u">
+                                                                <div class="play-comment-left am-u-md-9 am-u-sm-12">
+                                                                    <h4>来自世界各地的问候</h4>
+                                                                    <p>你好 hello Bonjour Hola Bom Dia</p>
+                                                                </div>
+                                                                <div class="am-pagination-right">
+                                                                    <small>帖子对所有人可见</small>
+                                                                    <p>8个月前岳亮亮发布</p>
+                                                                    <p><a href="play-talk-1.html"><i class="am-icon-plus"></i>加入讨论</a></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="play-doc-comment2 am-u-sm-12 am-u-md-12 am-u">
+                                                                <div class="play-comment-left am-u-md-9 am-u-sm-12">
+                                                                    <h4>你好</h4>
+                                                                    <p>merhaba</p>
+                                                                </div>
+                                                                <div class="am-pagination-right">
+                                                                    <small>帖子对所有人可见</small>
+                                                                    <p>一年前CUG1201590107发布</p>
+                                                                    <p><a href="play-talk-1.html"><i class="am-icon-plus"></i>加入讨论</a></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="play-doc-bot am-cf am-u-sm-12 am-u-md-12">
+                                                                <div class="am-fr">
+                                                                    <ul class="am-pagination tpl-pagination">
+                                                                        <li class="am-disabled"><a href="#">«</a></li>
+                                                                        <li class="am-disabled"><a href="#">»</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="play-bot-comment">
+                                                            <div class="play-bot-comment1 am-u-sm-12 am-u-md-12 am-u"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="am-footer am-u-md-12 am-u-sm-12">@2018 All Rights Reserved. Designed with by B1lehu</div>
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="assets/js/iscroll.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
