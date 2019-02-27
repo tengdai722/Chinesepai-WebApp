@@ -1,2 +1,2 @@
 # Chinesepai-WebApp
-WebApp for Chinese learning platform. Expected to be online by the end of 2018.
+See demo: https://tengdai722.github.io/Chinesepai-WebApp/
